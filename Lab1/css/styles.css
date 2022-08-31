@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, header, div, h1, h2, img, ul, ol, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+	background-color:#00CAC3;   /* background color */
+	color: #000000;          /* text color for the entire page */
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2, h3 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color:#F0EFEF;       /* exploring new text color */
+
+}
+/* unordered and ordered list rules */
+ul, ol {
+	text-align: left;
+	padding-left: 2px;
+}
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:900px;
+	margin:0 auto;    /* centers wrapper */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:4px;
+	text-align:center;
+	font-size:16px;
+	background-color:#F7B857;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+ }
+
+.stepContent{ 
+	background-color: #A8795C;
+	padding:7px;
+	display: flex;
+	justify-content: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+.stepDescription {
+	width:35%;
+	padding:5px;
+}
+
+.stepImage {
+	width:30%;	
+	padding:5px;
+	text-align: center;
+}
+
+img { 
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+
+footer {
+	text-align: center;
+	padding: 2px;
+	background-color: #F7B857;
+}
